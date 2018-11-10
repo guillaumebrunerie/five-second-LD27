@@ -1,7 +1,7 @@
 var kDefaultImageFontURL;
 if (window.location.host == "ghoulsblade.schattenkind.net") kDefaultImageFontURL = "http://ghoulsblade.schattenkind.net/love-webplayer/iyfct/gfx/imgfont.png";
 if (window.location.host == "localhost" && window.location.pathname.substring(0,16) == "/love-webplayer/") kDefaultImageFontURL = "http://localhost/love-webplayer/iyfct/gfx/imgfont.png";
-if (window.location.host == "innsbay.toile-libre.org") kDefaultImageFontURL = "http://innsbay.toile-libre.org/FiveSeconds/love-webplayer/iyfct/gfx/imgfont.png";
+if (window.location.host == "guillaumebrunerie.github.io") kDefaultImageFontURL = "https://guillaumebrunerie.github.io/five-seconds-LD27/imgfont.png";
 // otherwise : error:cross domain security. we'll have to canvas-draw sth.
 
 /// init lua api
