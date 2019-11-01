@@ -627,7 +627,7 @@ function love.draw()
                                    50, 500 - 50 * (10 - current_time),
                                    50, 500)
    love.graphics.draw(empty_gauge_img, 700, 50)
-   love.graphics.draw(full_gauge_img, q, 700, 50 + 50 * (10 - current_time))
+   love.graphics.drawq(full_gauge_img, q, 700, 50 + 50 * (10 - current_time))
    love.graphics.draw(limit_gauge_img, 700, 45 + 50 * (10 - current_time))
    -- love.graphics.setColor(255, 0, 0)
    -- love.graphics.rectangle("fill", 700, 50, 50, 500)
