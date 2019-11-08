@@ -385,7 +385,7 @@ function love.load()
    if not love.web then
       font = love.graphics.newFont(36)
    else
-      font = love.graphics.newImageFont("imgfont.png", "Level 12345+s")
+      font = love.graphics.newImageFont("Images/imgfont.png", "Level 12345+s")
    end
    love.graphics.setFont(font)
 
